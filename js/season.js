@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //페이지가 로드 된 후 실행
   
     const menu = window.parent.document.getElementById("menu");// <iframe id ="menu">
-    console.log (menu);
+    
      menu.addEventListener("load", () => {
 
        if ( i !== null && i !=="" ) {
