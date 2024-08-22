@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const i = para.get('p'); // 쿼리문자열에서 매개변수 p의 값을 반환함. 0,1,2,3 (para.get)은 ()에 지정한 문자를 가지고 온다.
   
   console.log( para.toString() );
+  console.log( i );
     //페이지가 로드 된 후 실행
   
     const menu = document.getElementById("menu");// <iframe id ="menu">
