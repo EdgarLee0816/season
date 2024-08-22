@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log( i );
     //페이지가 로드 된 후 실행
   
-    const menu = document.getElementById("menu");// <iframe id ="menu">
+    const menu = window.parent.document.getElementById("menu");// <iframe id ="menu">
     
      menu.addEventListener("load", () => {
 
